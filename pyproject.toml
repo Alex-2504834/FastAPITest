@@ -1,0 +1,12 @@
+[project]
+name = "fastapi-worker"
+version = "0.1.0"
+dependencies = [
+  "fastapi",
+]
+
+[dependency-groups]
+dev = [
+  "workers-py",
+  "workers-runtime-sdk",
+]
